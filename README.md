@@ -22,3 +22,8 @@ Entregáveis
 - js/script.js
 - parte_teorica.pdf
 - vídeo demonstrativo
+
+### Site: https://fernandamessa1.github.io/pokedex-frontend
+
+### 🎥 Vídeo de apresentação
+Link do vídeo: https://youtu.be/_GWlKf11KlQ
