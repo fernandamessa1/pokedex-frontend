@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pokédex — Personagens</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <h1>Pokédex — Personagens</h1>
+      <p class="subtitle">Projeto de <strong>Fernanda Messa Menegassi</strong> — UNIFECAF — Web Programming For Front End</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="searchInput" placeholder="Pesquisar por nome (pressione Enter)..." aria-label="Pesquisar Pokémon">
+      <button id="loadMore">Carregar mais</button>
+    </section>
+
+    <section id="cardsContainer" class="cards-container" aria-live="polite">
+      <!-- Cards inseridos dinamicamente aqui -->
+    </section>
+
+    <div id="loading" class="loading" style="display:none">Carregando...</div>
+  </main>
+
+  <footer class="site-footer">
+    <small>Dados obtidos da API pública: pokeapi.co</small>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
